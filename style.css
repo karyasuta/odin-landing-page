@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto';
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -61,13 +65,14 @@ h1 {
     color: #f9faf8;
     font-size: 48px;
     margin-bottom: 8px;
+    margin-right: 20px;
 }
 
 .hero-text {
     color: #e5e7eb;
     font-size: 18px;
     margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 button,
@@ -188,4 +193,16 @@ button:active {
     border-style: solid;
     border-color: #e5e7eb;
     align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer .container {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
 }
