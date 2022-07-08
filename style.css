@@ -73,7 +73,7 @@ h1 {
 button {
     color: white;
     font-weight: bold;
-    background-color: rgb(0, 110, 255);
+    background-color: #3882f6;
     border-style: none;
     border-radius: 8px;
     height: 28px;
@@ -88,4 +88,46 @@ button:hover {
 
 button:active {
     background-color: aqua;
+}
+
+.cards-section {
+    height: 500px;
+}
+
+.cards-section .container {
+    display: flex;
+    align-items: center;
+    height: 60%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.card {
+    width: 180px;
+    flex: 0 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: first baseline;
+}
+
+.box {
+    height: 180px;
+    width: 180px;
+    border: 3.5px solid #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
