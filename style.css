@@ -131,3 +131,25 @@ button:active {
     border-radius: 20px;
     margin-bottom: 10px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    height: 500px;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.author {
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
+}
