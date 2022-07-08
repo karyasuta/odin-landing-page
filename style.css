@@ -70,9 +70,11 @@ h1 {
     margin-right: 10px;
 }
 
-button {
+button,
+.signup-button {
     color: white;
     font-weight: bold;
+    font-size: 16px;
     background-color: #3882f6;
     border-style: none;
     border-radius: 8px;
@@ -152,4 +154,38 @@ button:active {
     font-size: 28px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.cta {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .container {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    height: 150px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.cta-first {
+    max-width: 640px;
+}
+
+.cta-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.signup-button {
+    border-style: solid;
+    border-color: #e5e7eb;
+    align-self: center;
 }
