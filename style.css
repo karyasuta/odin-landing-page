@@ -46,3 +46,46 @@ ul {
 li {
     margin-left: 20px;
 }
+
+.header {
+    background-color: #1f2937;
+    height: 500px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 110, 255);
+    border-style: none;
+    border-radius: 8px;
+    height: 28px;
+    width: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    background-color: aqua;
+}
